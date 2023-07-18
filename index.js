@@ -79,6 +79,7 @@ setInterval(() => {
     createSlide();
 },3000);
 
+
 //image card
 const videoCards = [...document.querySelectorAll(".video-card")];
 
@@ -92,6 +93,7 @@ videoCards.forEach((item) => {
         video.pause();
     });
 });
+
 
 //card slider
 let cardContainers = [...document.querySelectorAll('.card-container')];
